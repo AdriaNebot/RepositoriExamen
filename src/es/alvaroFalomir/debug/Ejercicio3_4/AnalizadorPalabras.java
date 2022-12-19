@@ -22,6 +22,7 @@ public class AnalizadorPalabras
     * el caracter 'l' se considera repetido en "hollow", pero el caracter 'o' no. 
     * @return devuelve el primer caracter repetido o 0 sino se ha encontrado ninguno
     */
+  
    public char primerCaracterRepetido()
    {
       for (int i = 0; i < palabra.length(); i++)
